@@ -10,7 +10,7 @@ import { ValidationButton } from './validate_assignment';
 /**
  * Activate the extension.
  */
-function activate(app: JupyterFrontEnd) {
+function activate(app: JupyterFrontEnd): void {
   app.docRegistry.addWidgetExtension('Notebook', new ValidationButton());
   console.debug('JupyterLab extension jupyterlab_nbgrader is activated!');
 }
