@@ -46,8 +46,6 @@ jobs:
     
     - name: Install dependencies
       run: python -m pip install -U jupyterlab~=3.0 check-manifest
-    - name: Install the nbgrader git-repo (extra development step)
-      run: python -m pip install git+git://github.com/ocordes/nbgrader.git#egg=nbgrader
     - name: Build the extension
       run: |
         set -eux
