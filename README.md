@@ -2,13 +2,22 @@
 
 ![Github Actions Status](https://github.com/ocordes/jupyterlab_nbgrader/workflows/Build/badge.svg)
 
-A JupyterLab extension.
+A JupyterLab nbrader extension.
+
+This is a proof of concept development and not meant for production.
+
+The nbgrader package lacks of jupyterlab support. This extension is a one-to-one-copy of the features of the
+nbgrader extension into jupyterlab. After having a concept of how to visualize the ngrader environment in jupyterlab there will be a change of the server extension and some feature enhancements as well.
+
+The features supported at the moment:
+ * validation of notebooks
 
 
 
 ## Requirements
 
 * JupyterLab >= 3.0
+* nbgrader == 0.7.0.dev  (the recent git version 2021-05-28)
 
 ## Install
 
