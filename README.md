@@ -2,7 +2,7 @@
 
 ![Github Actions Status](https://github.com/ocordes/jupyterlab_nbgrader/workflows/Build/badge.svg)
 
-A JupyterLab nbrader extension.
+A JupyterLab nbgrader extension.
 
 This is a proof of concept development and not meant for production.
 
