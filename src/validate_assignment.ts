@@ -97,11 +97,20 @@ export class ValidationButton
     panel: NotebookPanel,
     context: DocumentRegistry.IContext<INotebookModel>
   ): IDisposable {
+    let is_running = false;
     const callback = () => {
+      if (is_running) {
+        // callback is already running, return directly
+        return;
+      }
+      // sets the state to running for the callback
+      is_running = true;
+
       context.save().then(async () => {
         //console.log(button);
         // is called when saving was successfull!
-
+        button.node.querySelector('button').disabled = true;
+        button.node.querySelectorAll('span')[1].innerText = 'Validating...';
         const check_version = await requestAPI<any>(
           'nbgrader_version',
           {},
@@ -120,6 +129,9 @@ export class ValidationButton
             focusNodeSelector: 'input',
             buttons: [Dialog.okButton()]
           }); //.then(() => {});
+          button.node.querySelector('button').disabled = false;
+          button.node.querySelectorAll('span')[1].innerText = 'Validate';
+          is_running = false;
           return;
         }
 
@@ -138,8 +150,10 @@ export class ValidationButton
             buttons: [Dialog.okButton()]
           }).then(result => {
             console.log(result);
+            button.node.querySelector('button').disabled = false;
+            button.node.querySelectorAll('span')[1].innerText = 'Validate';
+            is_running = false;
           });
-          return values;
         });
       });
     };
@@ -147,6 +161,7 @@ export class ValidationButton
     const button = new ToolbarButton({
       label: 'Validate',
       className: 'myButton',
+      actualOnClick: false,
       onClick: callback,
       tooltip: 'Validate Notebook'
     });
