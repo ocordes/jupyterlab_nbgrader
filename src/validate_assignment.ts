@@ -107,7 +107,6 @@ export class ValidationButton
       is_running = true;
 
       context.save().then(async () => {
-        //console.log(button);
         // is called when saving was successfull!
         button.node.querySelector('button').disabled = true;
         button.node.querySelectorAll('span')[1].innerText = 'Validating...';
@@ -128,32 +127,31 @@ export class ValidationButton
             body: new Widget({ node: body }),
             focusNodeSelector: 'input',
             buttons: [Dialog.okButton()]
-          }); //.then(() => {});
+          });
           button.node.querySelector('button').disabled = false;
           button.node.querySelectorAll('span')[1].innerText = 'Validate';
           is_running = false;
           return;
         }
 
-        console.log('validating the notebook');
+        console.debug('validating the notebook');
         const data = new URLSearchParams();
         data.append('path', context.path);
         await requestAPI<any>('assignments/validate', {
           method: 'POST',
           body: data
         }).then(values => {
+          // generate the dialog body corresponding to the results
           const body = validate(values);
           showDialog({
             title: 'Validation Results',
             body: new Widget({ node: body }),
             focusNodeSelector: 'input',
             buttons: [Dialog.okButton()]
-          }).then(result => {
-            console.log(result);
-            button.node.querySelector('button').disabled = false;
-            button.node.querySelectorAll('span')[1].innerText = 'Validate';
-            is_running = false;
           });
+          button.node.querySelector('button').disabled = false;
+          button.node.querySelectorAll('span')[1].innerText = 'Validate';
+          is_running = false;
         });
       });
     };
