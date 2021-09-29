@@ -569,9 +569,9 @@
     react-dom "^17.0.1"
     typestyle "^2.0.4"
 
-"@lumino/algorithm@^1.3.3", "@lumino/algorithm@^1.6.0", "@lumino/algorithm@^1.6.2":
-  version "1.6.2"
-  resolved "https://registry.npmjs.org/@lumino/algorithm/-/algorithm-1.6.2.tgz"
+"@lumino/algorithm@^1.3.3", "@lumino/algorithm@^1.6.0", "@lumino/algorithm@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@lumino/algorithm/-/algorithm-1.7.0.tgz#5626652ad0ef5b3a060bec1cdd3b41d628bd663f"
 
 "@lumino/application@^1.16.0":
   version "1.20.0"
@@ -603,12 +603,12 @@
   version "1.8.0"
   resolved "https://registry.npmjs.org/@lumino/coreutils/-/coreutils-1.8.0.tgz"
 
-"@lumino/disposable@^1.4.3", "@lumino/disposable@^1.7.0", "@lumino/disposable@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.npmjs.org/@lumino/disposable/-/disposable-1.7.2.tgz"
+"@lumino/disposable@^1.4.3", "@lumino/disposable@^1.7.0", "@lumino/disposable@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@lumino/disposable/-/disposable-1.8.0.tgz#0e903c83a2c18ed939f3de9a0c155baedeceb414"
   dependencies:
-    "@lumino/algorithm" "^1.6.2"
-    "@lumino/signaling" "^1.7.2"
+    "@lumino/algorithm" "^1.7.0"
+    "@lumino/signaling" "^1.8.0"
 
 "@lumino/domutils@^1.2.3", "@lumino/domutils@^1.5.0":
   version "1.5.0"
@@ -644,11 +644,11 @@
   version "1.5.0"
   resolved "https://registry.npmjs.org/@lumino/properties/-/properties-1.5.0.tgz"
 
-"@lumino/signaling@^1.4.3", "@lumino/signaling@^1.7.0", "@lumino/signaling@^1.7.2":
-  version "1.7.2"
-  resolved "https://registry.npmjs.org/@lumino/signaling/-/signaling-1.7.2.tgz"
+"@lumino/signaling@^1.4.3", "@lumino/signaling@^1.7.0", "@lumino/signaling@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@lumino/signaling/-/signaling-1.8.0.tgz#46c0f8181a691211fa13db6b35383e3f5149cccc"
   dependencies:
-    "@lumino/algorithm" "^1.6.2"
+    "@lumino/algorithm" "^1.7.0"
 
 "@lumino/virtualdom@^1.11.0", "@lumino/virtualdom@^1.8.0":
   version "1.11.0"
