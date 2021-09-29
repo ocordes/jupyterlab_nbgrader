@@ -98,20 +98,20 @@
     gud "^1.0.0"
     warning "^4.0.3"
 
-"@jupyterlab/application@^3.1.11":
-  version "3.1.11"
-  resolved "https://registry.npmjs.org/@jupyterlab/application/-/application-3.1.11.tgz"
+"@jupyterlab/application@^3.1.13":
+  version "3.1.13"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/application/-/application-3.1.13.tgz#7ac1c63df5ff1da2724e97c625fcb475af7c5f7a"
   dependencies:
     "@fortawesome/fontawesome-free" "^5.12.0"
-    "@jupyterlab/apputils" "^3.1.11"
-    "@jupyterlab/coreutils" "^5.1.11"
-    "@jupyterlab/docregistry" "^3.1.11"
-    "@jupyterlab/rendermime" "^3.1.11"
-    "@jupyterlab/rendermime-interfaces" "^3.1.11"
-    "@jupyterlab/services" "^6.1.11"
-    "@jupyterlab/statedb" "^3.1.11"
-    "@jupyterlab/translation" "^3.1.11"
-    "@jupyterlab/ui-components" "^3.1.11"
+    "@jupyterlab/apputils" "^3.1.13"
+    "@jupyterlab/coreutils" "^5.1.13"
+    "@jupyterlab/docregistry" "^3.1.13"
+    "@jupyterlab/rendermime" "^3.1.13"
+    "@jupyterlab/rendermime-interfaces" "^3.1.13"
+    "@jupyterlab/services" "^6.1.13"
+    "@jupyterlab/statedb" "^3.1.13"
+    "@jupyterlab/translation" "^3.1.13"
+    "@jupyterlab/ui-components" "^3.1.13"
     "@lumino/algorithm" "^1.3.3"
     "@lumino/application" "^1.16.0"
     "@lumino/commands" "^1.12.0"
@@ -123,7 +123,7 @@
     "@lumino/signaling" "^1.4.3"
     "@lumino/widgets" "^1.19.0"
 
-"@jupyterlab/apputils@^3.0.8", "@jupyterlab/apputils@^3.1.11", "@jupyterlab/apputils@^3.1.13":
+"@jupyterlab/apputils@^3.0.8", "@jupyterlab/apputils@^3.1.13":
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/apputils/-/apputils-3.1.13.tgz#835bc3717a9209df9466e096170bae63cda7e09e"
   dependencies:
@@ -291,7 +291,7 @@
     react "^17.0.1"
     y-codemirror "^2.1.1"
 
-"@jupyterlab/coreutils@^5.1.11", "@jupyterlab/coreutils@^5.1.13":
+"@jupyterlab/coreutils@^5.1.13":
   version "5.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/coreutils/-/coreutils-5.1.13.tgz#d37234d6f5317eaf634774fa87ebee452246adc0"
   dependencies:
@@ -445,14 +445,6 @@
     "@lumino/widgets" "^1.19.0"
     resize-observer-polyfill "^1.5.1"
 
-"@jupyterlab/rendermime-interfaces@^3.1.11":
-  version "3.1.11"
-  resolved "https://registry.npmjs.org/@jupyterlab/rendermime-interfaces/-/rendermime-interfaces-3.1.11.tgz"
-  dependencies:
-    "@jupyterlab/translation" "^3.1.11"
-    "@lumino/coreutils" "^1.5.3"
-    "@lumino/widgets" "^1.19.0"
-
 "@jupyterlab/rendermime-interfaces@^3.1.13":
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/rendermime-interfaces/-/rendermime-interfaces-3.1.13.tgz#a7c19df28c45c5c85d48687c621c7081860e6e2d"
@@ -461,7 +453,7 @@
     "@lumino/coreutils" "^1.5.3"
     "@lumino/widgets" "^1.19.0"
 
-"@jupyterlab/rendermime@^3.1.11", "@jupyterlab/rendermime@^3.1.13":
+"@jupyterlab/rendermime@^3.1.13":
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/rendermime/-/rendermime-3.1.13.tgz#049ef8db60322d984895b57ca2fab351a7720676"
   dependencies:
@@ -481,7 +473,7 @@
     lodash.escape "^4.0.1"
     marked "^2.0.0"
 
-"@jupyterlab/services@^6.1.11", "@jupyterlab/services@^6.1.13":
+"@jupyterlab/services@^6.1.13":
   version "6.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/services/-/services-6.1.13.tgz#9e2048461a7ddf4cfb9280a1ec67c85896a07973"
   dependencies:
@@ -521,16 +513,6 @@
     y-protocols "^1.0.5"
     yjs "^13.5.6"
 
-"@jupyterlab/statedb@^3.1.11":
-  version "3.1.11"
-  resolved "https://registry.npmjs.org/@jupyterlab/statedb/-/statedb-3.1.11.tgz"
-  dependencies:
-    "@lumino/commands" "^1.12.0"
-    "@lumino/coreutils" "^1.5.3"
-    "@lumino/disposable" "^1.4.3"
-    "@lumino/properties" "^1.2.3"
-    "@lumino/signaling" "^1.4.3"
-
 "@jupyterlab/statedb@^3.1.13":
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/statedb/-/statedb-3.1.13.tgz#02baefcd5a805cfd2fcb470bcc2fa4194215b98f"
@@ -560,7 +542,7 @@
     react "^17.0.1"
     typestyle "^2.0.4"
 
-"@jupyterlab/translation@^3.1.11", "@jupyterlab/translation@^3.1.13":
+"@jupyterlab/translation@^3.1.13":
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/translation/-/translation-3.1.13.tgz#6975fc05157309c92b7d186c3566b9cdffe02397"
   dependencies:
@@ -569,7 +551,7 @@
     "@jupyterlab/statedb" "^3.1.13"
     "@lumino/coreutils" "^1.5.3"
 
-"@jupyterlab/ui-components@^3.1.11", "@jupyterlab/ui-components@^3.1.13":
+"@jupyterlab/ui-components@^3.1.13":
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/@jupyterlab/ui-components/-/ui-components-3.1.13.tgz#d8d32fe0dd56cc7b3fdfbf04897a4cde9ad3a189"
   dependencies:
