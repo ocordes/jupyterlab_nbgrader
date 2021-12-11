@@ -161,11 +161,11 @@
     "@lumino/disposable" "^1.4.3"
     "@lumino/signaling" "^1.4.3"
 
-"@jupyterlab/builder@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/builder/-/builder-3.2.4.tgz#d5572cb675a5c80ef4e620dcf0c984f29cc97d66"
+"@jupyterlab/builder@^3.2.5":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/builder/-/builder-3.2.5.tgz#f057f11eea760fdd30009477816db664ffa4ce17"
   dependencies:
-    "@jupyterlab/buildutils" "^3.2.4"
+    "@jupyterlab/buildutils" "^3.2.5"
     "@lumino/algorithm" "^1.3.3"
     "@lumino/application" "^1.16.0"
     "@lumino/commands" "^1.12.0"
@@ -201,9 +201,9 @@
     webpack-merge "^5.1.2"
     worker-loader "^3.0.2"
 
-"@jupyterlab/buildutils@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/buildutils/-/buildutils-3.2.4.tgz#ade40b14b626a099fa452e6f8cf3a826984715b0"
+"@jupyterlab/buildutils@^3.2.5":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/buildutils/-/buildutils-3.2.5.tgz#013ea51efc0406931c4aa7e92a24110b5a7dbd29"
   dependencies:
     "@lumino/coreutils" "^1.5.3"
     "@yarnpkg/lockfile" "^1.1.0"
