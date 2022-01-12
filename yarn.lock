@@ -123,16 +123,16 @@
     "@lumino/signaling" "^1.4.3"
     "@lumino/widgets" "^1.19.0"
 
-"@jupyterlab/apputils@^3.0.8", "@jupyterlab/apputils@^3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/apputils/-/apputils-3.2.5.tgz#72a2b50f4e6956bc4fa342c40dbad7899963c822"
+"@jupyterlab/apputils@^3.2.5", "@jupyterlab/apputils@^3.2.7":
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/apputils/-/apputils-3.2.7.tgz#d550630269c2c9001a07144206862a6b765379f4"
   dependencies:
-    "@jupyterlab/coreutils" "^5.2.5"
-    "@jupyterlab/services" "^6.2.5"
-    "@jupyterlab/settingregistry" "^3.2.5"
-    "@jupyterlab/statedb" "^3.2.5"
-    "@jupyterlab/translation" "^3.2.5"
-    "@jupyterlab/ui-components" "^3.2.5"
+    "@jupyterlab/coreutils" "^5.2.7"
+    "@jupyterlab/services" "^6.2.7"
+    "@jupyterlab/settingregistry" "^3.2.7"
+    "@jupyterlab/statedb" "^3.2.7"
+    "@jupyterlab/translation" "^3.2.7"
+    "@jupyterlab/ui-components" "^3.2.7"
     "@lumino/algorithm" "^1.3.3"
     "@lumino/commands" "^1.12.0"
     "@lumino/coreutils" "^1.5.3"
@@ -292,9 +292,9 @@
     react "^17.0.1"
     y-codemirror "^3.0.1"
 
-"@jupyterlab/coreutils@^5.2.5":
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/coreutils/-/coreutils-5.2.5.tgz#91a7d32721837c9d26c7248c4a232febee21c22c"
+"@jupyterlab/coreutils@^5.2.5", "@jupyterlab/coreutils@^5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/coreutils/-/coreutils-5.2.7.tgz#b8d18f7d98594baa7ba5996ec5f9db7dd9343125"
   dependencies:
     "@lumino/coreutils" "^1.5.3"
     "@lumino/disposable" "^1.4.3"
@@ -389,6 +389,12 @@
   dependencies:
     "@lumino/coreutils" "^1.5.3"
 
+"@jupyterlab/nbformat@^3.2.7":
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/nbformat/-/nbformat-3.2.7.tgz#673add072cd68f093b9e39976907480c0d10eee3"
+  dependencies:
+    "@lumino/coreutils" "^1.5.3"
+
 "@jupyterlab/notebook@^3.2.5":
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/@jupyterlab/notebook/-/notebook-3.2.5.tgz#86b21fe481c6699edfb1db4710cbb0d846980d5b"
@@ -420,6 +426,16 @@
 "@jupyterlab/observables@^4.2.5":
   version "4.2.5"
   resolved "https://registry.yarnpkg.com/@jupyterlab/observables/-/observables-4.2.5.tgz#f31b166c66dddc7d34f49b8bc3a6d2d137b327f5"
+  dependencies:
+    "@lumino/algorithm" "^1.3.3"
+    "@lumino/coreutils" "^1.5.3"
+    "@lumino/disposable" "^1.4.3"
+    "@lumino/messaging" "^1.4.3"
+    "@lumino/signaling" "^1.4.3"
+
+"@jupyterlab/observables@^4.2.7":
+  version "4.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/observables/-/observables-4.2.7.tgz#8ad24ad7774d613ac688c1079a78f9fa4d3f426a"
   dependencies:
     "@lumino/algorithm" "^1.3.3"
     "@lumino/coreutils" "^1.5.3"
@@ -474,15 +490,15 @@
     lodash.escape "^4.0.1"
     marked "^2.0.0"
 
-"@jupyterlab/services@^6.2.5":
-  version "6.2.5"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/services/-/services-6.2.5.tgz#349ce5cf26ca62562cb6e1c55c25022432f6f8ee"
+"@jupyterlab/services@^6.2.5", "@jupyterlab/services@^6.2.7":
+  version "6.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/services/-/services-6.2.7.tgz#1376044e43e543dbc8bf2a6551eac940e617fc87"
   dependencies:
-    "@jupyterlab/coreutils" "^5.2.5"
-    "@jupyterlab/nbformat" "^3.2.5"
-    "@jupyterlab/observables" "^4.2.5"
-    "@jupyterlab/settingregistry" "^3.2.5"
-    "@jupyterlab/statedb" "^3.2.5"
+    "@jupyterlab/coreutils" "^5.2.7"
+    "@jupyterlab/nbformat" "^3.2.7"
+    "@jupyterlab/observables" "^4.2.7"
+    "@jupyterlab/settingregistry" "^3.2.7"
+    "@jupyterlab/statedb" "^3.2.7"
     "@lumino/algorithm" "^1.3.3"
     "@lumino/coreutils" "^1.5.3"
     "@lumino/disposable" "^1.4.3"
@@ -491,11 +507,11 @@
     node-fetch "^2.6.0"
     ws "^7.4.6"
 
-"@jupyterlab/settingregistry@^3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/settingregistry/-/settingregistry-3.2.5.tgz#c66e16c70429f29fce5f61e02192fb41126c0919"
+"@jupyterlab/settingregistry@^3.2.7":
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/settingregistry/-/settingregistry-3.2.7.tgz#a30f1d5243661e4f12341ae5d297ab0c7913eddd"
   dependencies:
-    "@jupyterlab/statedb" "^3.2.5"
+    "@jupyterlab/statedb" "^3.2.7"
     "@lumino/commands" "^1.12.0"
     "@lumino/coreutils" "^1.5.3"
     "@lumino/disposable" "^1.4.3"
@@ -514,9 +530,9 @@
     y-protocols "^1.0.5"
     yjs "^13.5.17"
 
-"@jupyterlab/statedb@^3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/statedb/-/statedb-3.2.5.tgz#d383e90226811621d0b803590bd0df90ddb62170"
+"@jupyterlab/statedb@^3.2.5", "@jupyterlab/statedb@^3.2.7":
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/statedb/-/statedb-3.2.7.tgz#7a423b51bf6455b64d725174d8e01bfe9a0dc470"
   dependencies:
     "@lumino/commands" "^1.12.0"
     "@lumino/coreutils" "^1.5.3"
@@ -543,22 +559,22 @@
     react "^17.0.1"
     typestyle "^2.0.4"
 
-"@jupyterlab/translation@^3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/translation/-/translation-3.2.5.tgz#807d2860afa87e42a3cec5a4757fa752b77a44c6"
+"@jupyterlab/translation@^3.2.5", "@jupyterlab/translation@^3.2.7":
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/translation/-/translation-3.2.7.tgz#32275e08f08c29023063a391cbe8fbab4dd2dde0"
   dependencies:
-    "@jupyterlab/coreutils" "^5.2.5"
-    "@jupyterlab/services" "^6.2.5"
-    "@jupyterlab/statedb" "^3.2.5"
+    "@jupyterlab/coreutils" "^5.2.7"
+    "@jupyterlab/services" "^6.2.7"
+    "@jupyterlab/statedb" "^3.2.7"
     "@lumino/coreutils" "^1.5.3"
 
-"@jupyterlab/ui-components@^3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/ui-components/-/ui-components-3.2.5.tgz#69ab5f6ab27de6f628fe2f820a988434dfaf5cdd"
+"@jupyterlab/ui-components@^3.2.5", "@jupyterlab/ui-components@^3.2.7":
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/ui-components/-/ui-components-3.2.7.tgz#ddff9dedbf41bd4e3950d20b51f5af52dab1221a"
   dependencies:
     "@blueprintjs/core" "^3.36.0"
     "@blueprintjs/select" "^3.15.0"
-    "@jupyterlab/coreutils" "^5.2.5"
+    "@jupyterlab/coreutils" "^5.2.7"
     "@lumino/algorithm" "^1.3.3"
     "@lumino/commands" "^1.12.0"
     "@lumino/coreutils" "^1.5.3"
